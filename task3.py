@@ -1,5 +1,5 @@
-num1 = int(input())
-num2 = int(input())
+num1 = int(input("enter 1st number: "))
+num2 = int(input("enter 2nd number: "))
 
 if (num1 or num2 == 65) or ((num1 + num2) == 65):
     print("True")
