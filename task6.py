@@ -1,11 +1,19 @@
-num1 = int(input("enter 1st number: "))
-num2 = int(input("enter 2nd number: "))
-num3 = int(input("enter 3rd number: "))
 
-if num1 > num2 and num1 > num3:
-    maxNum = str(num1)
-elif num2 > num1 and num2 > num3:
-    maxNum = str(num2)
-else:
-    maxNum = str(num3)
-print("The maximum number entered is " + maxNum)
+
+def maxNum(x,y,z):
+    if x > y and x > z:
+        maxNum = str(x)
+    elif y > x and y > z:
+        maxNum = str(y)
+    else:
+        maxNum = str(z)
+    print("The maximum number entered is " + maxNum)
+
+#Test
+#maxNum(5,6,7)
+#maxNum(9,8,7)
+#maxNum(-1,52,759)
+#maxNum(-25,-789,52)
+#maxNum(-1,-2,-3)
+#maxNum(100,-100,100)
+
