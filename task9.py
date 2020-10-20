@@ -1,20 +1,17 @@
-X = 3
-Y = 5
-Z = 1000
 
-x = str(X)
-y = str(Y)
-z = str(Z)
+def sumUntil(x,y,z):
+    numbersX = list(range(x,z,x))
+    numbersY = list(range(y,z,y))
 
-numsX = list(range(X,Z,X))
+    numbersXY = numbersX + numbersY
+    numbersXY = list(dict.fromkeys(numbersXY))
+    Sum = str(sum(numbersXY))
 
-numsY = list(range(Y,Z,Y))
+    print("The sum of all natural number multiples of " + str(x) + " and "
+          + str(y) + " below " + str(z) + " is " + Sum)
+    
 
-numsXY = numsX + numsY #combined list of multiples of 3 and 5 between 0 and 1000
-
-numsXY = list(dict.fromkeys(numsXY)) #remove duplicates e.g. 15,30,45 etc. Multiples of both 3 and 5
-
-Sum = str(sum(numsXY)) #builtin sum function
-
-print("The sum of all multiples of " + x  + " or " + y + " below " + z + " is " + Sum)
-
+#Test    
+#sumUntil(3,5,10)
+#sumUntil(3,5,1000)
+#sumUntil(2,3,10)
