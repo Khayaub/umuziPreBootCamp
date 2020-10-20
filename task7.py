@@ -1,18 +1,16 @@
-#Celsius to Fahrenheit
 
-num1 = int(input("enter temperature in degrees celsius: "))
+def celsiusToFah(x):
+    degreesFah = str((x *9/5) + 32)
+    print("The temperatur in degrees Fahrenheit is " + degreesFah)
 
-degreesFah = str((num1 * 9/5) + 32)
+def fahToCelsius(y):
+    degreesCel = str((y - 32) * 5/9)
+    print("The temperature in degrees celsius is " + degreesCel)
 
-print("The temperature in degrees fahrenheit is " + degreesFah)
-
-
-###############################################################
-
-
-#Fahrenheit to Celsius
-num1 = int(input("enter temperature in degrees fahrenheit: "))
-
-degreesCel = str((num1 - 32) * 5/9)
-
-print("The temperature in degrees celsius is " + degreesCel)
+#Test
+#celsiusToFah(0)
+#celsiusToFah(-36)
+#celsiusToFah(100)
+#fahToCelsius(0)
+#fahToCelsius(-36)
+#fahToCelsius(100)
