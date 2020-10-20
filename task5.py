@@ -1,10 +1,9 @@
+def areaOfTriangle(x,y,z):
+    semiP = (x + y + z)/2
+    area = str((semiP * (semiP - x) * (semiP - y) * (semiP - z))**0.5)
+    print("The area of your triangle is " + area + " sq units")
 
-num1 = int(input("enter 1st side length: "))
-num2 = int(input("enter 2nd side length: "))
-num3 = int(input("enter 3rd side length: "))
-
-semiP = (num1 + num2 + num3) / 2
-areaSq = semiP * (semiP - num1) * (semiP - num2) * (semiP - num3)
-area = str(areaSq**0.5)
-
-print("The area of your triangle is " + area " sq units")
+#Test
+#areaOfTriangle(3,4,5)
+#areaOfTriangle(50,40,30)
+#areaOfTriangle(15,75,69)
