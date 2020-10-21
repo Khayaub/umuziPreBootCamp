@@ -7,10 +7,11 @@ def fahToCelsius(y):
     degreesCel = str((y - 32) * 5/9)
     print("The temperature in degrees celsius is " + degreesCel)
 
+celsiusToFah(0)
+fahToCelsius(0)
+
 #Test
-#celsiusToFah(0)
 #celsiusToFah(-36)
 #celsiusToFah(100)
-#fahToCelsius(0)
 #fahToCelsius(-36)
 #fahToCelsius(100)
