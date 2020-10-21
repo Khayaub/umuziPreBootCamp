@@ -5,9 +5,9 @@ def true3(x,y):
     else:
         print("False")
 
+true3(10,3)
 
 #Test
-#true3(10,3)
 #true3(13,10)
 #true3(9,4)
 #true3(-3,6)
