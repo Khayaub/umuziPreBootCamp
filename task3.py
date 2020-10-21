@@ -4,8 +4,9 @@ def true65(x,y):
     else:
         print("False")
 
-#testing
-#true65(65,30)
+        true65(65,30)
+        
+#Testing
 #true65(5,6)
 #true65(70,-5)
 #true65(35,30)
