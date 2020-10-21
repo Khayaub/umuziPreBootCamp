@@ -6,10 +6,9 @@ def minutesToHours(x):
     print(numAns + " minutes converts to " + str(hours) + " hour(s) and "
           + str(minutes) + " minutes ")
 
-
+minutesToHours(71)
 
 # Test  
-#minutesToHours(71)
 #minutesToHours(133)
 #minutesToHours(58)
 #minutesToHours(240)
