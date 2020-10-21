@@ -3,7 +3,8 @@ def areaOfTriangle(x,y,z):
     area = str((semiP * (semiP - x) * (semiP - y) * (semiP - z))**0.5)
     print("The area of your triangle is " + area + " sq units")
 
+areaOfTriangle(3,4,5)
+
 #Test
-#areaOfTriangle(3,4,5)
 #areaOfTriangle(50,40,30)
 #areaOfTriangle(15,75,69)
