@@ -9,8 +9,9 @@ def maxNum(x,y,z):
         maxNum = str(z)
     print("The maximum number entered is " + maxNum)
 
+maxNum(5,6,7)
+
 #Test
-#maxNum(5,6,7)
 #maxNum(9,8,7)
 #maxNum(-1,52,759)
 #maxNum(-25,-789,52)
